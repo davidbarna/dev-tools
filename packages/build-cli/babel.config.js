@@ -1,3 +1,3 @@
 module.exports = {
-  presets: [require("@soyun/babel-preset")]
+  presets: [require("@dal/babel-preset")]
 };
