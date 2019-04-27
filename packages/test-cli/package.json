@@ -1,0 +1,24 @@
+{
+  "name": "@dal/test-cli",
+  "version": "0.0.0",
+  "main": "./bin/dal-test.js",
+  "bin": {
+    "dal-test": "./bin/dal-test.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@types/jest": "^24.0.11",
+    "eslint-plugin-jest": "^22.4.1",
+    "execa": "^1.0.0",
+    "jest": "^24.7.1",
+    "relative": "^3.0.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidbarna/dev-tools.git",
+    "directory": "packages/test-clig"
+  },
+  "homepage": "https://github.com/davidbarna/dev-tools/tree/master/packages/test-clig#readme"
+}
