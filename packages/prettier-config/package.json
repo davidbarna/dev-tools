@@ -1,0 +1,11 @@
+{
+  "name": "@dal/prettier-config",
+  "version": "0.0.0",
+  "main": ".prettierrc.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidbarna/dev-tools.git",
+    "directory": "packages/prettier-config"
+  },
+  "homepage": "https://github.com/davidbarna/dev-tools/tree/master/packages/prettier-config#readme"
+}
