@@ -1,22 +1,22 @@
-const path = require("path");
-const npxa = require("./utils/cli/npxa");
+const path = require('path');
+const npxa = require('./utils/cli/npxa');
 
-const inDir = "src";
-const outDir = "dist";
-const babelConfigPath = path.resolve(__dirname, "../babel.config.js");
+const inDir = 'src';
+const outDir = 'dist';
+const babelConfigPath = path.resolve(__dirname, '../babel.config.js');
 
-const execute = async () => {
-  await npxa("rimraf", [outDir]);
-  await npxa("@babel/cli", [
+const execute = async (): Promise<void> => {
+  await npxa('rimraf', [outDir]);
+  await npxa('@babel/cli', [
     inDir,
-    "--out-dir",
+    '--out-dir',
     outDir,
-    "--config-file",
+    '--config-file',
     babelConfigPath,
-    "--extensions",
-    ".js,.jsx,.ts,.tsx",
-    "--ignore",
-    "**/__tests__"
+    '--extensions',
+    '.js,.jsx,.ts,.tsx',
+    '--ignore',
+    '**/__tests__',
   ]);
 };
 

@@ -1,7 +1,17 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "lint": "dal-lint ."
+  },
   "devDependencies": {
+    "@dal/lint-cli": "^0.2.0",
     "lerna": "^3.13.4"
-  }
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/@dal/eslint-config/eslintrc.js"
+    ]
+  },
+  "prettier": "@dal/prettier-config"
 }

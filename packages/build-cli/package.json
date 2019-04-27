@@ -18,7 +18,7 @@
     "rimraf": "^2.6.3"
   },
   "devDependencies": {
-    "@types/node": "^10.14.4",
+    "@types/node": "^10.14.6",
     "nodemon": "^1.18.11"
   },
   "files": [
