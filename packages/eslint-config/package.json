@@ -1,10 +1,10 @@
 {
   "name": "@dal/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "eslintrc.js",
   "dependencies": {
-    "@dal/prettier-config": "^0.1.0",
-    "@dal/typescript-config": "^0.1.0",
+    "@dal/prettier-config": "^0.2.0",
+    "@dal/typescript-config": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^1.6.0",
     "@typescript-eslint/parser": "^1.6.0",
     "eslint-config-airbnb": "^17.1.0",
