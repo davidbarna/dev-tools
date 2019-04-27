@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnusedLabels": true,
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": false,
+    "isolatedModules": false,
+    "jsx": "react",
+    "target": "ESNext",
+    "module": "ESNext",
+    "noStrictGenericChecks": false,
+    "typeRoots": ["types", "node_modules/@types", "../node_modules/@types"],
+    "pretty": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["src/**/*"],
+  "outDir": "dist",
+  "exclude": ["node_modules", "dist"]
+}

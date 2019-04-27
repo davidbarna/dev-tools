@@ -1,0 +1,35 @@
+{
+  "name": "@soyun/build-cli",
+  "version": "0.0.0",
+  "bin": {
+    "syn-build": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "babel-node --extensions .ts src/",
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'npm run build' --ext ts"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@soyun/babel-preset": "^0.0.0",
+    "execa": "^1.0.0",
+    "read-pkg-up": "^5.0.0",
+    "rimraf": "^2.6.3",
+    "@babel/node": "^7.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.14.4",
+    "nodemon": "^1.18.11"
+  },
+  "files": [
+    "dist",
+    "tsconfig.json"
+  ],
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidbarna/dev-tools.git",
+    "directory": "packages/build-cli"
+  },
+  "homepage": "https://github.com/davidbarna/dev-tools/tree/master/packages/build-cli#readme"
+}
