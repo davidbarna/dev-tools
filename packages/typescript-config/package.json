@@ -1,0 +1,11 @@
+{
+  "name": "@dal/typescript-config",
+  "version": "0.0.0",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidbarna/dev-tools.git",
+    "directory": "packages/typescript-config"
+  },
+  "homepage": "https://github.com/davidbarna/dev-tools/tree/master/packages/typescript-config#readme"
+}
