@@ -1,6 +1,7 @@
 const prettierOptions = require('@dal/prettier-config');
 
 const ERR = 2;
+const WARN = 1;
 const OFF = 0;
 
 module.exports = {
@@ -22,6 +23,7 @@ module.exports = {
   rules: {
     'prettier/prettier': [ERR, prettierOptions],
     '@typescript-eslint/no-var-requires': OFF,
+    'react/jsx-filename-extension': [WARN, { extensions: ['.jsx', '.tsx'] }],
   },
   settings: {
     'import/resolver': {
