@@ -1,0 +1,25 @@
+{
+  "name": "@dal/lint-cli",
+  "version": "0.0.0",
+  "bin": {
+    "dal-lint": "bin/dal-lint.js"
+  },
+  "main": "bin/dal-lint.js",
+  "dependencies": {
+    "@dal/eslint-config": "^0.1.0",
+    "eslint": "^5.16.0",
+    "execa": "^1.0.0",
+    "prettier": "^1.17.0",
+    "relative": "^3.0.2",
+    "typescript": "^3.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidbarna/dev-tools.git",
+    "directory": "packages/lint-cli"
+  },
+  "homepage": "https://github.com/davidbarna/dev-tools/tree/master/packages/lint-cli#readme"
+}
