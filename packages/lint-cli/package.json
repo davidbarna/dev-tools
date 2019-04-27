@@ -1,12 +1,12 @@
 {
   "name": "@dal/lint-cli",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "bin": {
     "dal-lint": "bin/dal-lint.js"
   },
   "main": "bin/dal-lint.js",
   "dependencies": {
-    "@dal/eslint-config": "^0.2.2",
+    "@dal/eslint-config": "^0.2.3",
     "eslint": "^5.16.0",
     "execa": "^1.0.0",
     "prettier": "^1.17.0",
